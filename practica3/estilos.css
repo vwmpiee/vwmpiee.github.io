@@ -1,0 +1,38 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+maquillaje {
+  background-color: #fab9dc;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.nav {
+  background-color: #ffa2c3;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+}
+.contenedor {
+  display: flex;
+  min-height: 300px;
+}
+.sidebar {
+  background-color: #ffb2d6;
+  width: 30%;
+  padding: 20px;
+}
+.contenido {
+  background-color: #ffffff;
+  width: 70%;
+  padding: 20px;
+}
+.footer {
+  background-color: #ffb0ce;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}

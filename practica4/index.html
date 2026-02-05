@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Práctica Bootstrap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script><nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Mi sitio</a>
+  </div>
+</nav>
+<div class="alert alert-primary">Alerta primaria</div>
+<div class="alert alert-success">Alerta éxito</div>
+<div class="alert alert-danger">Alerta peligro</div>
+<button class="btn btn-primary">Primario</button>
+<button class="btn btn-secondary">Secundario</button>
+<button class="btn btn-warning">Advertencia</button><span class="badge bg-primary">Nuevo</span>
+<span class="badge bg-success">Activo</span>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card</h5>
+    <p class="card-text">Texto de ejemplo</p>
+    <a href="#" class="btn btn-primary">Botón</a>
+  </div>
+</div><ul class="list-group">
+  <li class="list-group-item">Elemento 1</li>
+  <li class="list-group-item">Elemento 2</li>
+</ul>
+<form>
+  <div class="mb-3">
+    <label class="form-label">Email</label>
+    <input type="email" class="form-control">
+  </div>
+  <button class="btn btn-primary">Enviar</button>
+</form>
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">Abrir modal</button>
+
+<div class="modal fade" id="miModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header"><h5>Modal</h5></div>
+      <div class="modal-body">Contenido</div>
+    </div>
+  </div>
+</div>
+<div class="accordion" id="acordeon">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#item1">Item</button>
+    </h2>
+    <div id="item1" class="accordion-collapse collapse show">
+      <div class="accordion-body">Contenido</div>
+    </div>
+  </div>
+</div><div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active"><div class="p-5 bg-secondary text-white">Slide 1</div></div>
+    <div class="carousel-item"><div class="p-5 bg-dark text-white">Slide 2</div></div>
+  </div>
+</div>
+
+
+</body>
+</html>
